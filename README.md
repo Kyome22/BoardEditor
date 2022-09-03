@@ -3,8 +3,7 @@
 テトリスとぷよぷよの盤面を再現するエディターです。  
 テトリスとぷよぷよの戦略を練って訓練するために使えます。
 
-<img src="./Images/tetris_demo.png" alt="テトリス" width="284" />
-<img src="./Images/puyo_demo.png" alt="ぷよぷよ" width="250" />
+<img src="./Images/tetris_demo.png" alt="テトリス" width="284" /> <img src="./Images/puyo_demo.png" alt="ぷよぷよ" width="250" />
 
 - テトリミノの色やぷよを選んで盤面をなぞることで描画できます。
 - リセットボタンで全てを消すことができます。
