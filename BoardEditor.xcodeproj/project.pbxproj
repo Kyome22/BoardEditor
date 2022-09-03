@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C49187C28C329EA001DC1B5 /* PuyoColorPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C49187B28C329EA001DC1B5 /* PuyoColorPanel.swift */; };
+		1C49187E28C32F45001DC1B5 /* PuyoBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C49187D28C32F45001DC1B5 /* PuyoBoardView.swift */; };
+		1C49188028C33D72001DC1B5 /* PuyoOverlayModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C49187F28C33D72001DC1B5 /* PuyoOverlayModifier.swift */; };
+		1CE2078A28BBAD920023BABA /* BoardEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2078928BBAD920023BABA /* BoardEditorApp.swift */; };
+		1CE2078E28BBAD930023BABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE2078D28BBAD930023BABA /* Assets.xcassets */; };
+		1CE2079128BBAD930023BABA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE2079028BBAD930023BABA /* Preview Assets.xcassets */; };
+		1CE2079928BBAE590023BABA /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2079828BBAE590023BABA /* SelectView.swift */; };
+		1CE2079B28BBAE980023BABA /* TetrisEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2079A28BBAE980023BABA /* TetrisEditorView.swift */; };
+		1CE2079D28BBAEAD0023BABA /* PuyoEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2079C28BBAEAD0023BABA /* PuyoEditorView.swift */; };
+		1CE207A728BBAF6B0023BABA /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE207A528BBAF6B0023BABA /* ToolBar.swift */; };
+		1CE207A828BBAF6B0023BABA /* Tetorimino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE207A428BBAF6B0023BABA /* Tetorimino.swift */; };
+		1CE207A928BBAF6B0023BABA /* TetrisColorPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE207A628BBAF6B0023BABA /* TetrisColorPanel.swift */; };
+		1CE207AA28BBAF6B0023BABA /* MinoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE207A328BBAF6B0023BABA /* MinoType.swift */; };
+		1CE207AC28BBAF820023BABA /* TetrisBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE207AB28BBAF820023BABA /* TetrisBoardView.swift */; };
+		1CE207AD28BBAFD20023BABA /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE2079F28BBAEE20023BABA /* Color+Extension.swift */; };
+		1CE207AE28BBAFD20023BABA /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE207A028BBAEE20023BABA /* View+Extension.swift */; };
+		1CE207B028BBB3CA0023BABA /* PuyoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE207AF28BBB3CA0023BABA /* PuyoType.swift */; };
+		1CE207B228BBB6440023BABA /* Puyo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE207B128BBB6440023BABA /* Puyo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C49187B28C329EA001DC1B5 /* PuyoColorPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuyoColorPanel.swift; sourceTree = "<group>"; };
+		1C49187D28C32F45001DC1B5 /* PuyoBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuyoBoardView.swift; sourceTree = "<group>"; };
+		1C49187F28C33D72001DC1B5 /* PuyoOverlayModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuyoOverlayModifier.swift; sourceTree = "<group>"; };
+		1CE2078628BBAD920023BABA /* BoardEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE2078928BBAD920023BABA /* BoardEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardEditorApp.swift; sourceTree = "<group>"; };
+		1CE2078D28BBAD930023BABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CE2079028BBAD930023BABA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CE2079228BBAD930023BABA /* BoardEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoardEditor.entitlements; sourceTree = "<group>"; };
+		1CE2079828BBAE590023BABA /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		1CE2079A28BBAE980023BABA /* TetrisEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisEditorView.swift; sourceTree = "<group>"; };
+		1CE2079C28BBAEAD0023BABA /* PuyoEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuyoEditorView.swift; sourceTree = "<group>"; };
+		1CE2079F28BBAEE20023BABA /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		1CE207A028BBAEE20023BABA /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		1CE207A328BBAF6B0023BABA /* MinoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinoType.swift; sourceTree = "<group>"; };
+		1CE207A428BBAF6B0023BABA /* Tetorimino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tetorimino.swift; sourceTree = "<group>"; };
+		1CE207A528BBAF6B0023BABA /* ToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
+		1CE207A628BBAF6B0023BABA /* TetrisColorPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisColorPanel.swift; sourceTree = "<group>"; };
+		1CE207AB28BBAF820023BABA /* TetrisBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisBoardView.swift; sourceTree = "<group>"; };
+		1CE207AF28BBB3CA0023BABA /* PuyoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuyoType.swift; sourceTree = "<group>"; };
+		1CE207B128BBB6440023BABA /* Puyo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puyo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CE2078328BBAD920023BABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CE2077D28BBAD920023BABA = {
+			isa = PBXGroup;
+			children = (
+				1CE2078828BBAD920023BABA /* BoardEditor */,
+				1CE2078728BBAD920023BABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CE2078728BBAD920023BABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CE2078628BBAD920023BABA /* BoardEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CE2078828BBAD920023BABA /* BoardEditor */ = {
+			isa = PBXGroup;
+			children = (
+				1CE2079E28BBAED40023BABA /* Extensions */,
+				1CE2078928BBAD920023BABA /* BoardEditorApp.swift */,
+				1CE2079828BBAE590023BABA /* SelectView.swift */,
+				1CE207A528BBAF6B0023BABA /* ToolBar.swift */,
+				1CE207A128BBAF2B0023BABA /* Tetris */,
+				1CE207A228BBAF460023BABA /* PuyoPuyo */,
+				1CE2078D28BBAD930023BABA /* Assets.xcassets */,
+				1CE2079228BBAD930023BABA /* BoardEditor.entitlements */,
+				1CE2078F28BBAD930023BABA /* Preview Content */,
+			);
+			path = BoardEditor;
+			sourceTree = "<group>";
+		};
+		1CE2078F28BBAD930023BABA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CE2079028BBAD930023BABA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CE2079E28BBAED40023BABA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1CE2079F28BBAEE20023BABA /* Color+Extension.swift */,
+				1CE207A028BBAEE20023BABA /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1CE207A128BBAF2B0023BABA /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				1CE2079A28BBAE980023BABA /* TetrisEditorView.swift */,
+				1CE207AB28BBAF820023BABA /* TetrisBoardView.swift */,
+				1CE207A628BBAF6B0023BABA /* TetrisColorPanel.swift */,
+				1CE207A328BBAF6B0023BABA /* MinoType.swift */,
+				1CE207A428BBAF6B0023BABA /* Tetorimino.swift */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		1CE207A228BBAF460023BABA /* PuyoPuyo */ = {
+			isa = PBXGroup;
+			children = (
+				1CE2079C28BBAEAD0023BABA /* PuyoEditorView.swift */,
+				1C49187D28C32F45001DC1B5 /* PuyoBoardView.swift */,
+				1C49187B28C329EA001DC1B5 /* PuyoColorPanel.swift */,
+				1CE207AF28BBB3CA0023BABA /* PuyoType.swift */,
+				1CE207B128BBB6440023BABA /* Puyo.swift */,
+				1C49187F28C33D72001DC1B5 /* PuyoOverlayModifier.swift */,
+			);
+			path = PuyoPuyo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CE2078528BBAD920023BABA /* BoardEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CE2079528BBAD930023BABA /* Build configuration list for PBXNativeTarget "BoardEditor" */;
+			buildPhases = (
+				1CE2078228BBAD920023BABA /* Sources */,
+				1CE2078328BBAD920023BABA /* Frameworks */,
+				1CE2078428BBAD920023BABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoardEditor;
+			productName = BoardEditor;
+			productReference = 1CE2078628BBAD920023BABA /* BoardEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CE2077E28BBAD920023BABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1CE2078528BBAD920023BABA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1CE2078128BBAD920023BABA /* Build configuration list for PBXProject "BoardEditor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CE2077D28BBAD920023BABA;
+			productRefGroup = 1CE2078728BBAD920023BABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CE2078528BBAD920023BABA /* BoardEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CE2078428BBAD920023BABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE2079128BBAD930023BABA /* Preview Assets.xcassets in Resources */,
+				1CE2078E28BBAD930023BABA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE2078228BBAD920023BABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE207AC28BBAF820023BABA /* TetrisBoardView.swift in Sources */,
+				1C49187E28C32F45001DC1B5 /* PuyoBoardView.swift in Sources */,
+				1C49188028C33D72001DC1B5 /* PuyoOverlayModifier.swift in Sources */,
+				1CE207A928BBAF6B0023BABA /* TetrisColorPanel.swift in Sources */,
+				1CE2078A28BBAD920023BABA /* BoardEditorApp.swift in Sources */,
+				1CE207B228BBB6440023BABA /* Puyo.swift in Sources */,
+				1CE2079D28BBAEAD0023BABA /* PuyoEditorView.swift in Sources */,
+				1CE207A828BBAF6B0023BABA /* Tetorimino.swift in Sources */,
+				1CE207AA28BBAF6B0023BABA /* MinoType.swift in Sources */,
+				1CE207A728BBAF6B0023BABA /* ToolBar.swift in Sources */,
+				1CE2079B28BBAE980023BABA /* TetrisEditorView.swift in Sources */,
+				1C49187C28C329EA001DC1B5 /* PuyoColorPanel.swift in Sources */,
+				1CE207B028BBB3CA0023BABA /* PuyoType.swift in Sources */,
+				1CE207AD28BBAFD20023BABA /* Color+Extension.swift in Sources */,
+				1CE207AE28BBAFD20023BABA /* View+Extension.swift in Sources */,
+				1CE2079928BBAE590023BABA /* SelectView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CE2079328BBAD930023BABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CE2079428BBAD930023BABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1CE2079628BBAD930023BABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BoardEditor/BoardEditor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_ASSET_PATHS = "\"BoardEditor/Preview Content\"";
+				DEVELOPMENT_TEAM = VJ5N2X84K8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.BoardEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1CE2079728BBAD930023BABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BoardEditor/BoardEditor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_ASSET_PATHS = "\"BoardEditor/Preview Content\"";
+				DEVELOPMENT_TEAM = VJ5N2X84K8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyome.BoardEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CE2078128BBAD920023BABA /* Build configuration list for PBXProject "BoardEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE2079328BBAD930023BABA /* Debug */,
+				1CE2079428BBAD930023BABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CE2079528BBAD930023BABA /* Build configuration list for PBXNativeTarget "BoardEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE2079628BBAD930023BABA /* Debug */,
+				1CE2079728BBAD930023BABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CE2077E28BBAD920023BABA /* Project object */;
+}
