@@ -17,7 +17,7 @@ extension View {
         guard let rep = self.getSnapshotRep() else { return }
         let savePanel = NSSavePanel()
         savePanel.directoryURL = URL(fileURLWithPath: "\(NSHomeDirectory())/Desktop")
-        savePanel.allowedContentTypes = [UTType.png]
+        savePanel.allowedContentTypes = [UTType.jpeg]
         savePanel.canCreateDirectories = true
         savePanel.isExtensionHidden = false
         savePanel.message = "Save Snapshot"
@@ -29,7 +29,7 @@ extension View {
                 }
             }
         } else if savePanel.runModal() == .OK, let url = savePanel.url {
-            let data = rep.representation(using: .png, properties: [:])
+            let data = rep.representation(using: .jpeg, properties: [:])
             try? data?.write(to: url)
         }
     }
